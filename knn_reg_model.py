@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from matplotlib import pyplot as plt
 import time as t
 
-data = pd.read_csv(r'C:\Users\LENOVO\Desktop\StreamLit Project\Student_Prep\student_exam_data.csv')
+data = pd.read_csv(r'student_exam_data.csv')
 X = data.iloc[:,0:-1].values
 y = data.iloc[:,-1].values
 
